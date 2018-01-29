@@ -1,0 +1,23 @@
+
+Last name : Legrand
+First name : Louis
+Age : 34
+Title : Chirugian
+
+Last name : Dupuis
+First name : Laura
+Age : 27
+
+---------------------------------------------------------------------
+
+Work in the place : Lyon
+
+Work in the place : Lyon
+This place is a war place
+
+---------------------------------------------------------------------
+
+Number of target : 2
+
+Number of target : 2
+This target is the number of enemies

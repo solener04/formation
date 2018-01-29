@@ -1,0 +1,24 @@
+
+Last name : Legrand
+First name : Louis
+Age : 34
+Title : Chirugian
+
+--- Modification d'un attribut parent (firstName) 
+
+Last name : Legrand
+First name : Louis - NEW
+Age : 34
+Title : Chirugian
+
+---------------------------------------------------------------------
+
+Last name : Dupuis
+First name : Laura
+Age : 27
+
+--- Modification d'un attribut parent (age) 
+
+Last name : Dupuis
+First name : Laura
+Age : 29

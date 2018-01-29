@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Enregistrer un joueur</title>
+	<link rel="stylesheet" type="text/css" href="css/position.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<script type = "text/javascript" src = "js/fonctions.js" ></script>
+</head>
+
+<body>
+
+	<header id="bandeau">
+				<div id="logo">
+					<img id="imageLogo" src="image/logo.png" />
+					<p> ROLAND GARROS </p>
+				</div>
+				<nav id="navigation">
+					<ul class="navigation">
+					<li id="home"> <a href = "home.html"> Home </a> </li>
+					<li id="about"> <a href = "page_en_cours_developpement.html"> About </a> </li>
+					<li id="contact"> <a href = "page_en_cours_developpement.html"> Contact </a> </li>
+				</ul>
+				</nav>	
+	</header>
+	
+	<div id="contenu">
+		<div id="titrePage">
+			<h1>Enregistrement d'un nouveau joueur</h1>
+			<p>Enregistrer un nouveau joueur en indiquant son nom, son prénom, son sexe et sa nationalité </p>
+		</div>
+		
+		<div id="formulaire">
+			<form name="enregistrementJoueur" id="enregistrementJoueur" action="home.html" method="get"
+			onsubmit = "return checkJoueur(this)">
+			<p>
+				<label class="label"> Nom :</label>
+				<input type="text" name="txNomJoueur" id="txNomJoueur" size="20" maxlength="30" >
+			</p>
+			<p>
+				<label class="label"> Prénom :</label>
+				<input type="text" name="txPrenomJoueur" id="txPrenomJoueur" size="20" maxlength="30" >
+			</p>
+				<label class="label">Sexe :</label>
+				<label>Féminin</label>
+		 		<input type="radio" name="rbSexe" id="rbSexe" value="1" checked="checked">
+	      		<label>Masculin</label>
+	      		<input type="radio" name="rbSexe" id="rbSexe" value="2">
+			<p>
+				
+			</p>
+			
+			<p>
+				<label class="label">Pays :</label>
+				<select name="cbPays" id="cbPays">
+					<option value="1" selected="selected">France</option>
+					<option value="2">Espagne</option>
+					<option value="3">Suisse</option>
+					<option value="4">Serbie</option>
+					<option value="5">Etats-Unis</option>
+					<option value="6">Allemagne</option>
+					<option value="7">Russie</option>
+				</select>
+			</p> <br />
+			<div id="msgErreur"></div>
+			
+			<p>
+				<input type="submit" name="btEnregistrerJoueur" id="btEnregistrerJoueur" value="Enregistrer le joueur">
+			</p>		
+		</form>
+		</div>
+		
+		<div id="liste">
+			<h2>Liste des joueurs enregistrés</h2>
+			<ul>
+				<li>Rafael Nadal</li>
+				<li>Novak Djokovic</li>
+				<li>Gael Monfils</li>
+				<li>Serena Williams</li>
+				<li>Kiki Bertens</li>
+			</ul>		
+		</div>
+	</div>
+	
+	<footer>
+		<p> © 2018 S.RIFFARD </p>
+	</footer>
+</body>
+</html>

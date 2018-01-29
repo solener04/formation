@@ -1,0 +1,10 @@
+
+Doctor walking at 2Km
+
+Doctor running at 9Km
+
+---------------------------------------------------------------------
+
+Soldier walking at 7Km
+
+Soldier running at 15Km

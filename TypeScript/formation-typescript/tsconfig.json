@@ -1,0 +1,15 @@
+{ 				
+    "include":[ 
+        "./src/exercice" 				
+    ], 				
+    "exclude":[ 								
+        "./folder/**/*.spec.ts"			
+    ],
+    "compilerOptions":	{ 								
+        "target": "es6", 										
+        "declaration": false, 							
+        "noImplicitAny": false, 								
+        "removeComments": true,
+        "outFile": "dist/output.js"	
+    } 
+}

@@ -1,0 +1,94 @@
+@CHARSET "ISO-8859-1";
+/*Mise en forme du squelette*/
+#navigation li a {
+	text-decoration : none;
+	font-size : 15pt;
+	color : white;
+	font-style : italic; 
+}
+
+#logo p {
+	color : white;	
+}
+
+body {
+	background-color : #f0f0f0;
+}
+
+footer p {
+	background-color : silver;
+	text-align : center;
+	position : relative;
+	bottom : 0;
+}
+
+/*Mise en forme de la page de connexion*/
+#formulaireConnexion {
+	text-align : center;
+}
+
+#formulaireConnexion h1 {
+	font-family : fantasy;
+	font-size : 20pt;
+	font-weight : normal;
+	margin-left : 85px;
+}
+
+#btConnexion {
+	background-color : grey;
+	color : white;
+	font-weight : bold;
+	width : 120px;
+	height : 25px;
+}
+
+label.label {
+	display : inline-block;
+	width : 100px;
+}
+
+#boutonSouvenir, #btConnexion {
+	margin-left : 85px;
+}
+
+/*Mise en page page home*/
+#enregistrerJoueur, #enregistrerArbitre, #enregistrerCourt,
+#planificationMatch, #enregistrerResultat, #deconnexion {
+	font-weight : bold;
+	font-size : 13pt;
+}
+
+div#titrePage {
+	margin-top : 30px;
+	border-style : solid;
+	border-color : grey;
+	background-color : #f0c2c2;
+}
+
+div#titrePage h1 {
+	font-size : 30pt;
+	font-family : fantasy;	
+}
+
+div#titrePage p {
+	font-style : italic;
+	font-family : cursive;
+}
+
+/*Mise en page enregistrement joueur, Arbitre,court et Match*/
+#enregistrementJoueur, #enregistrementArbitre, #enregistrementCourt, #enregistrementMatch {
+	text-align : center;
+}
+
+#btEnregistrerJoueur, #btEnregistrerArbitre, #btEnregistrerCourt, #btEnregistrerMatch  {
+	background-color : grey;
+	color : white;
+	font-weight : bold;
+	width : 150px;
+	height : 25px;
+}
+
+/*Mise en page planification match*/
+div#liste.planMatch ul li {
+	list-style-type : none;
+}
