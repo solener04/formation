@@ -1,0 +1,138 @@
+<!DOCTYPE html >
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Catalogue</title>
+				
+		<link rel="stylesheet" type="text/css" href="css/styles1.css" />
+		<link rel="stylesheet" type="text/css" href="css/positions.css" />
+		<link rel="stylesheet" type="text/css" href="css/formulaire.css" />
+		
+	</head>
+	<body>
+	
+	<div id="general">
+	
+		<div id="bandeau">
+		  <a href="index.htm">
+			 <img src="images/logo.png" alt="Les editions du globe" width="100%" border="0"/>
+		  </a>
+		</div> <!-- Fin de bandeau -->
+	   
+	   
+		<div id="corpsDePage">
+
+			<div id="navigation">
+			  <ul>
+				 <li><a href="index.htm">Accueil</a></li>
+				 <li><a href="documentation.htm">Documentation</a></li>
+				 <li><a href="catalogue.htm">Catalogue</a></li>
+			  </ul>
+			</div> <!-- Fin de navigation -->
+		  
+			<div id="miettesDePain">
+			  <a href="index.htm">Accueil</a> | Catalogue
+
+			</div> <!-- Fin de corps de miettes de pain -->
+		  
+			<div id="contenu">
+				<!-- ***********************************************-->
+				<!-- **** Début du contenu spécifique à la page ****-->
+				<!-- ****                                       ****-->
+				<!-- **** FAIRE TOUT DE SUITE ENREGISTRER SOUS... **-->
+				<!-- ****                                       ****-->
+				<!-- **** Ne pas oublier de :                   ****-->
+				<!-- ****  - modifier TITLE                     ****-->
+				<!-- ****  - mettre à jour les miettes de pain  ****-->
+				<!-- ***********************************************-->
+		      <h1>Demande de Documentation</h1>
+			  <p>Pour recevoir notre documentation sur nos ouvrages, veuillez renseigner le formulaire ci-dessous.</p>
+		      <form name="documentation" id="documentation" action="#" method="get">
+			      <fieldset>
+			      	<legend>Etat cicil</legend>
+			      	<p>
+			      		<label>Civilité:</label>
+			      		<input type="radio" name="rbCivilite" id="rbCivilite" value="1" checked="checked">
+			      		<label class="inline">Mlle.</label>
+			      		<input type="radio" name="rbCivilite" id="rbCivilite" value="2">
+			      		<label class="inline">Mme.</label>
+			      		<input type="radio" name="rbCivilite" id="rbCivilite" value="2">
+			      		<label class="inline">M.</label>
+			      	</p>
+			      		<label>Nom*:</label>
+			      		<input class="obligatoire" type="text" name="txNom" id="txNom" size="20" maxlenght="20">
+			      	</p>
+			      	<p>
+			      		<label>Prenom:</label>
+			      		<input type="text" name="txPrenom" id="txPrenom" size="20" maxlenght="20">
+			      	</p>
+			      </fieldset>
+			      <br />
+			      <fieldset>
+			      	<legend>Adresse</legend>
+			      	<p>
+			      		<label>N°:</label>
+			      		<input type="text" name="txNA°" id="txNA°" size="20" maxlength="20">
+			      	</p>
+			      	<p>
+			      		<label>Rue:</label>
+			      		<input type="text" name="txRue" id="txRue" size="20" maxlength="20">
+			      	</p>
+			      	<p>
+			      		<label>Code Postale*:</label>
+			      		<input class="obligatoire" type="text" name="txCodePostale" id="txCodePostale" size="20" maxlength="20">
+			      	</p>
+			      		<label>Ville*:</label>
+			      		<select class="obligatoire" name="cbVille" id="cbVille">
+					      <option value="0">Paris</option>
+					      <option value="1" selected="selected">Province</option>
+						</select>
+			      	</p>
+			      </fieldset><br />
+			      <fieldset>
+			      	<legend>Divers</legend>
+			      	<p>
+			      		<label>email:</label>
+			      		<input type="text" name="txemail" id="txemail" size="20" maxlength="30">
+			      	</p>
+			      	<p>
+			      		<label>Newslettre</label>
+			      		<input type="checkbox" name="cbNewslettre" id="cbNewsettre">
+			      		<label class="inline">Cochez pour vous abonner</label>
+			      	</p>
+			      </fieldset><br />
+			      <p id="buttons">
+			      	<input type="submit" name="btEnvoyer" id="btEnvoyer" value="ENVOYER">
+			      	<input type="submit" name="btAnnuler" id="btAnnuler" value="ANNULER">
+			      </p>
+			     </form>
+
+				<!-- *********************************************-->
+				<!-- **** Fin du contenu spécifique à la page ****-->
+				<!-- *********************************************-->	 
+			  
+			</div> <!-- Fin de contenu -->
+
+			<div id="pub">
+				<p>Publicité</p>
+
+				<img src="images/livres/VBienEcrirePourLeWeb.jpg" 
+				  id="imagePub" />
+
+			</div> <!-- Fin de pub -->
+		</div> <!-- Fin de corps de page -->
+
+		<div id="piedDePage">		 
+			<div id="globe"></div>
+			<div id="fondPiedDePage">
+				<div class="infosLegales">&copy; FuturSkill - 2018</div>
+			</div>
+			<p>&nbsp;</p>
+								 
+		</div> <!-- Fin de pied de page --> 
+
+	</div> <!-- Fin de general -->
+	
+	</body>
+</html>

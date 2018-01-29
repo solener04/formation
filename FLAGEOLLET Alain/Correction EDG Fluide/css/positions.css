@@ -1,0 +1,122 @@
+#general {
+   position : relative;
+   min-height: 100%;
+   margin : auto;
+   max-width : 900px;
+   z-index : 10;
+   overflow-x: hidden;
+   overflow-y: hidden;
+}
+
+#bandeau {
+/*
+   position : absolute;
+   left : 0px;
+   top : 0px;
+
+*/
+   max-width : 900px;
+   background-image : url(../images/fondBandeauHaut.jpg);
+   background-repeat : repeat-x;
+}
+
+#corpsDePage {
+/*
+   position : absolute;
+   left : 0px;
+   top : 150px;
+*/
+   max-width : 900px;
+   z-index : 10;
+   min-height: 100%;
+}
+
+#navigation {
+/*
+   position : absolute;
+   left : 0px;
+   top : 0px;
+   height : 300px;
+*/
+   max-width : 200px;
+   margin-top : 30px;
+   padding : 10px;
+   float :left;
+}
+
+#miettesDePain {
+/*
+   position : absolute;
+   left : 200px;
+   top : 0px;
+	height : 20px;
+*/
+   max-width : 500px;
+ }
+
+#contenu {
+/*
+   position : absolute;
+   left : 200px;
+   top : 20px;
+*/
+   max-width : 500px;
+   z-index : 10;
+   float :left;
+   border-right : dotted 1px #666;
+   border-left : dotted 1px #666;
+   overflow : none; 
+   padding: 10px;
+   margin-bottom: 70px; 
+}
+
+#pub {
+/*
+   position : absolute;
+   left : 700px;
+   top : 0px;
+   height : 310px;
+
+*/
+   max-width : 200px;
+   text-align : center;
+   margin-top : 30px;
+   margin-left : 10px;
+   padding : 10px;
+   z-index : 10;
+   float :left;   
+   margin-bottom: 70px;  
+}
+
+#piedDePage {
+   position : absolute;
+   left : 0;
+   bottom : 0;
+   width: 100%;
+   height : 70px;
+   z-index : -1;
+}
+
+#fondPiedDePage {
+/*
+   position : absolute;
+   left : 0px;
+   top : 0px;
+*/
+   height : 70px;   
+   max-width : 900px;
+   background-image : url(../images/fondPiedDePage.png);
+   z-index : 1;		
+}
+
+#globe {
+
+	position : absolute;
+	left : 450px;
+	top : -305px;
+	width : 479px;
+	height : 374px;
+	background-image : url(../images/globePiedDePage.png);
+	z-index : -5;
+}
+		

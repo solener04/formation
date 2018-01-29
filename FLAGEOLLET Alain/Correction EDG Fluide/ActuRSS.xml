@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rss version="2.0">
+    <channel>
+        <title>WEB - www.developpez.com</title>
+        <link>http://web.developpez.com/</link>
+        <description>Toutes les nouveautés de la rubrique WEB de Developpez.com</description>
+        <language>fr-FR</language>
+        <item>
+            <title>Tutoriel : Héberger son site web chez soi avec Apache ou IIS, par Sylvain Baudoin</title>
+            <link>http://web.developpez.com/cours/serveur-web-chez-soi/</link>
+            <pubDate>Mon, 28 Apr 2008 02:00:07 +0200</pubDate>
+            <description/>
+            <guid isPermaLink="false">1216817260158252248244824014117410683144105</guid>
+        </item>
+        <item>
+            <title>Livre : Apache Cookbook de Ken Coar et Rich Bowen, critique par Adrien Pellegrini</title>
+            <link>http://apache.developpez.com/livres/#L9780596529949</link>
+            <pubDate>Fri, 25 Apr 2008 02:00:08 +0200</pubDate>
+            <description/>
+            <guid isPermaLink="false">169247182421793810412160221549121723694</guid>
+        </item>
+        <item>
+            <title>Tutoriel (X)HTML : Mise en forme des abréviations et acronymes, par Russ Weakley</title>
+            <link>http://maxdesign.developpez.com/tutoriels/xhtml/abreviations-acronymes/</link>
+            <pubDate>Thu, 24 Apr 2008 02:00:09 +0200</pubDate>
+            <description/>
+            <guid isPermaLink="false">1141636915651160692451504910811916813537156</guid>
+        </item>
+        <item>
+            <title>Les meilleurs Codes Sources PHP : 94 scripts sélectionnés par la Rédaction (participez)</title>
+            <link>http://php.developpez.com/sources/</link>
+            <pubDate>Thu, 24 Apr 2008 02:00:10 +0200</pubDate>
+            <description/>
+            <guid isPermaLink="false">1791741481952522114381315825162288818022</guid>
+        </item>
+        <item>
+            <title>Tutoriel : Comment centrer vos blocs (X)HTML avec du CSS, par Russ Weakley</title>
+            <link>http://maxdesign.developpez.com/tutoriels/css/centrer-bloc/</link>
+            <pubDate>Thu, 10 Apr 2008 02:00:19 +0200</pubDate>
+            <description/>
+            <guid isPermaLink="false">1972151981271172067152867524486133136166</guid>
+        </item>
+    </channel>
+</rss>
