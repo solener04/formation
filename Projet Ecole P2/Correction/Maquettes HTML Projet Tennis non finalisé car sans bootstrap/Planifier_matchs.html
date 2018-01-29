@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  	
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Planifier des matchs</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+     <!-- Custom styles for this template -->
+    <link href="css/offcanvas.css" rel="stylesheet">
+
+	<link href="css/jquery-ui.min.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/datepicker-fr.js"></script>
+
+	</head>
+
+  <body>
+
+	   <nav class="navbar navbar-fixed-top navbar-inverse">
+       <div class="container">
+ 			<img src="images/logo.png" alt="Roland Garros" title="Roland Garros">
+         <div class="navbar-header">
+           <a class="navbar-brand" href="#">ROLAND GARROS</a>
+        </div>
+         <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="Menu.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+
+    <div class="container">
+      <!-- Example row of columns -->
+       <div class="row row-offcanvas row-offcanvas-right">
+       <div class="col-xs-12 col-sm-9">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+           <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+   <div class="jumbotron">
+        <h1>Planifier des matchs</h1>
+        <p>Pour créer un match, sélectionner deux joueurs, un arbitre, un court et une date.</p>
+    </div>
+
+
+        <form action="#" method="post">
+			<p><label>Tournoi</label>
+			<select name="tournois" size="1">
+				<option>Sélectionnez</option>
+				<option>Simple Messieurs</option>
+				<option>Simples Dames</option>
+				<option>Simple Juniors</option>
+			</select></p>
+			<p><label>Joueur 1</label>
+			<select name="joueur1" size="1">
+				<option>Sélectionnez</option>
+				<option>Nadal Rafael</option>
+				<option>Djokovic Novak</option>
+				<option>Monfils Gaël</option>
+				<option>Williams Séréna</option>
+				<option>Bertens Kiki</option>
+			</select></p>
+			<p><label>Joueur 2</label>
+			<select name="joueur2" size="1">
+				<option>Sélectionnez</option>
+				<option>Nadal Rafael</option>
+				<option>Djokovic Novak</option>
+				<option>Monfils Gaël</option>
+				<option>Williams Séréna</option>
+				<option>Bertens Kiki</option>
+			</select></p>
+			<p><label>Arbitre</label>
+			<select name="arbitre" size="1">
+				<option>Sélectionnez</option>
+				<option>Dupont Paul</option>
+				<option>Durant Pierre</option>
+				<option>Thomasson Aline</option>
+				<option>Palacios Carolina</option>
+			</select></p>
+			<p><label>Court</label>
+			<select name="court" size="1">
+				<option>Sélectionnez</option>
+				<option>Philippe Chatrier</option>
+				<option>Suzanne Lenglen</option>
+				<option>Court n° 1</option>
+			</select></p>
+			<p><label>Date du match</label>
+			<input type="text" name="date" id="datepicker" ></p>
+			<p><button type="submit" class="btn btn-lg btn-primary">Enregistrer le match</button></p>		</form>
+      </div>
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+          <div class="list-group">
+            <a href="#" class="list-group-item active">Liste des matchs</a>
+ 
+              	<a href="#" class="list-group-item">Simple Messieurs 10/06/2016 <br/> Philippe Chatrier <br>Rafael Nadal vs Novak Djokovic <br> Arbitre : Carolina Palacios</a>
+   
+          </div>
+        </div><!--/.sidebar-offcanvas--> 
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>© 2016 Company, Inc.</p>
+      </footer>
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/offcanvas.js"></script>
+	<script>
+    	$.datepicker.setDefaults( $.datepicker.regional[ "fr" ] );
+		$( "#datepicker" ).datepicker({
+			inline: true
+		});
+	</script>
+  
+
+</body></html>

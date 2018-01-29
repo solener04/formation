@@ -1,0 +1,119 @@
+@CHARSET "ISO-8859-1";
+
+body{	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+label{display:block;float:left;width:150px;}
+input{display:block;}
+
+#entete{margin-bottom:75px;}
+#logo{display:inline; float:left;margin-right:30px;}
+#titreEntete{display:inline;margin-top:30px;}
+
+.lien{width:250px;height:200px;}
+
+.container img {
+    float: left;
+    margin: 0 10px;
+}
+input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    width: 200px;
+    height: 27px;
+}
+input[type="checkbox"] {
+	width : auto;
+	display : inline;
+	height: auto;
+	margin-right : 20px;
+}
+footer {
+    margin-top: 20px;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+	font-size: 36px;
+}
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+@media (min-width: 768px)
+.navbar-fixed-bottom, .navbar-fixed-top {
+    border-radius: 0;
+}
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid 
+}
+.navbar-inverse .navbar-brand {
+    color: #9d9d9d;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.navbar li {
+	float: left;
+	list-style: none;
+	display: block;
+	margin : 5px;
+}
+.col-sm-3 {
+    width: 25%;
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+a.list-group-item, button.list-group-item {
+    color: #555;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.sidebar-offcanvas {
+	float : right;
+}
+
